@@ -45,9 +45,10 @@
     self.locationManager.delegate = self;
     
     
-    if (IsAtLeastiOSVersion(@"9.0")) {
-        self.locationManager.allowsBackgroundLocationUpdates = YES;
-    }
+    //if (IsAtLeastiOSVersion(@"9.0")) {
+    //    self.locationManager.allowsBackgroundLocationUpdates = YES;
+    //}
+    // commented out as per Tapp's instructions 
 }
 
 - (void) initPeripheralManager {
